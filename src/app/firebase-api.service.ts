@@ -10,7 +10,7 @@ import { retry, catchError } from 'rxjs/operators';
 })
 export class FirebaseApiService {
 
-  apiURL = ''
+  apiURL = 'https://us-central1-bookshelf-dd.cloudfunctions.net'
 
   constructor(private http: HttpClient) { }
 
